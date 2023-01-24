@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:checked="true"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/nav_latest"
+            android:checked="true"
+            android:icon="@drawable/ic_info"
+            android:title="@string/latest_channels" />
+
+        <item
+            android:id="@+id/nav_cat"
+            android:checked="true"
+            android:icon="@drawable/cat_ic"
+            android:title="@string/categories" />
+
+        <item
+            android:id="@+id/nav_fav"
+            android:checked="true"
+            android:icon="@drawable/ic_favorite"
+            android:title="@string/favorites" />
+
+        <item android:title="@string/title_group1">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_facebook"
+                        android:icon="@drawable/ic_facebook"
+                        android:title="@string/nav_item_facebook" />
+                    <item
+                        android:id="@+id/nav_instagram"
+                        android:icon="@drawable/ic_instagram"
+                        android:title="@string/nav_item_instagram" />
+                    <item
+                        android:id="@+id/nav_telegram"
+                        android:icon="@drawable/telegram_ic"
+                        android:title="@string/nav_item_telegram" />
+                    <item
+                        android:id="@+id/nav_twitter"
+                        android:icon="@drawable/ic_twitter"
+                        android:title="@string/nav_item_twitter" />
+                </group>
+            </menu>
+        </item>
+
+        <item android:title="@string/title_group2">
+            <menu>
+                <group android:checkableBehavior="single">
+
+                    <item
+                        android:id="@+id/nav_feedback"
+                        android:icon="@drawable/ic_feedback"
+                        android:title="@string/feedback" />
+
+                    <item
+                        android:id="@+id/nav_rate"
+                        android:icon="@drawable/ic_rate"
+                        android:title="@string/rate_app" />
+
+                    <item
+                        android:id="@+id/nav_share"
+                        android:icon="@drawable/ic_share"
+                        android:title="@string/share_app" />
+
+                    <item
+                        android:id="@+id/nav_about"
+                        android:icon="@drawable/ic_about"
+                        android:title="@string/about_us" />
+
+                    <item
+                        android:id="@+id/nav_privacy"
+                        android:icon="@drawable/ic_privacy"
+                        android:title="@string/privacy_policy" />
+
+                    <item
+                        android:id="@+id/nav_exit"
+                        android:icon="@drawable/ic_exit"
+                        android:title="@string/exit" />
+
+                </group>
+            </menu>
+        </item>
+    </group>
+
+
+</menu>
