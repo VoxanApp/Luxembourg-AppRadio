@@ -117,18 +117,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 frgmt.setArguments(bundle);
                 Methods.addSelectedFragment(frgmt, this);
                 break;
-            case R.id.nav_facebook:
-                Methods.gotoFB(this);
-                break;
-            case R.id.nav_instagram:
-                Methods.gotoinstagram(this);
-                break;
-            case R.id.nav_telegram:
-                Methods.joinTelegram(this);
-                break;
-            case R.id.nav_twitter:
-                Methods.gotoTwitter(this);
-                break;
             case R.id.nav_feedback:
                 Methods.sendEmail(this);
                 break;
