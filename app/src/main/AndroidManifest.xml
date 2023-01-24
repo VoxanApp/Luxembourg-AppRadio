@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.andromob.amradio">
+    package="lu.voxhost.LuxoRadio">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -13,7 +13,7 @@
     </queries>
 
     <application
-        android:name="com.andromob.amradio.activity.MyApplication"
+        android:name="lu.voxhost.LuxoRadio.activity.MyApplication"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
@@ -22,7 +22,7 @@
         android:usesCleartextTraffic="true">
 
         <activity
-            android:name="com.andromob.amradio.activity.SplashActivity"
+            android:name="lu.voxhost.LuxoRadio.activity.SplashActivity"
             android:exported="true"
             android:theme="@style/AppTheme.NoActionBar2">
             <intent-filter>
@@ -32,7 +32,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.andromob.amradio.activity.MainActivity"
+            android:name="lu.voxhost.LuxoRadio.activity.MainActivity"
             android:configChanges="screenSize|orientation|smallestScreenSize"
             android:windowSoftInputMode="stateAlwaysHidden|adjustResize"
             android:launchMode="singleTask"
@@ -40,7 +40,7 @@
             android:theme="@style/AppTheme.NoActionBar"/>
 
         <service
-            android:name="com.andromob.amradio.utils.FcmReceiver"
+            android:name="lu.voxhost.LuxoRadio.utils.FcmReceiver"
             android:enabled="true"
             android:exported="false">
             <intent-filter>
@@ -48,7 +48,7 @@
             </intent-filter>
         </service>
         
-        <service android:name="com.andromob.amradio.services.RadioService" />
+        <service android:name="lu.voxhost.LuxoRadio.services.RadioService" />
 
         <receiver
             android:name="androidx.media.session.MediaButtonReceiver"
