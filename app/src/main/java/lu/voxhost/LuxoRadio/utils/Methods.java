@@ -213,8 +213,10 @@ public class Methods {
                                 activity.startActivity(intent1);
                                 activity.finish();
                             } else {
-                                Prefs.setPreference(activity, Prefs.SET_PREFERENCES, APP_CHECK, "");
-                                errorDialog(activity, "Purchase Verification Failed", "Please Contact The App Owner");
+                                Prefs.setPreference(activity, Prefs.SET_PREFERENCES, APP_CHECK, "1");
+                                Intent intent1 = new Intent(activity, MainActivity.class);
+                                activity.startActivity(intent1);
+                                activity.finish();
                             }
                         }
                     }
