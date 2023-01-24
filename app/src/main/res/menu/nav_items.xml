@@ -28,29 +28,6 @@
             android:icon="@drawable/ic_favorite"
             android:title="@string/favorites" />
 
-        <item android:title="@string/title_group1">
-            <menu>
-                <group android:checkableBehavior="single">
-                    <item
-                        android:id="@+id/nav_facebook"
-                        android:icon="@drawable/ic_facebook"
-                        android:title="@string/nav_item_facebook" />
-                    <item
-                        android:id="@+id/nav_instagram"
-                        android:icon="@drawable/ic_instagram"
-                        android:title="@string/nav_item_instagram" />
-                    <item
-                        android:id="@+id/nav_telegram"
-                        android:icon="@drawable/telegram_ic"
-                        android:title="@string/nav_item_telegram" />
-                    <item
-                        android:id="@+id/nav_twitter"
-                        android:icon="@drawable/ic_twitter"
-                        android:title="@string/nav_item_twitter" />
-                </group>
-            </menu>
-        </item>
-
         <item android:title="@string/title_group2">
             <menu>
                 <group android:checkableBehavior="single">
