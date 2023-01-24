@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 public class Config implements Serializable {
 
-    public static final String ITEM_PURCHASE_CODE = "Demo";
+    public static final String ITEM_PURCHASE_CODE = "123";
 
     public static int SLIDER_LIMIT = 5;
     public static int SLIDER_TIMER = 5000; // 1sec = 1000
