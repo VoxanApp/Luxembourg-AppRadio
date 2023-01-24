@@ -1,8 +1,8 @@
 package lu.voxhost.LuxoRadio.utils;
 
-import static com.andromob.amradio.utils.Methods.postTokenToServer;
-import static com.andromob.amradio.utils.Prefs.getUserToken;
-import static com.andromob.amradio.utils.Prefs.setUserToken;
+import static lu.voxhost.LuxoRadio.utils.Methods.postTokenToServer;
+import static lu.voxhost.LuxoRadio.utils.Prefs.getUserToken;
+import static lu.voxhost.LuxoRadio.utils.Prefs.setUserToken;
 
 import android.annotation.SuppressLint;
 import android.app.NotificationChannel;

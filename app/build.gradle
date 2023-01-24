@@ -7,7 +7,7 @@ android {
     compileSdkVersion 32
     defaultConfig {
         multiDexEnabled true
-        applicationId "lu.voxhost.luxoradio"
+        applicationId "lu.voxhost.LuxoRadio"
         minSdkVersion 21
         targetSdkVersion 32
         versionCode 1

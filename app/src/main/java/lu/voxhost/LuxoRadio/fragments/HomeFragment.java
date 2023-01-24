@@ -19,12 +19,12 @@ import lu.voxhost.LuxoRadio.adapter.SliderAdapter;
 import lu.voxhost.LuxoRadio.databinding.FragmentHomeBinding;
 import lu.voxhost.LuxoRadio.models.Category;
 import lu.voxhost.LuxoRadio.models.Channels;
-import com.andromob.amradio.utils.AdsManager;
-import com.andromob.amradio.utils.Config;
-import com.andromob.amradio.utils.Methods;
-import com.andromob.amradio.utils.Presenter;
-import com.andromob.amradio.views.ChannelViews;
-import com.andromob.amradio.views.HomeDashViews;
+import lu.voxhost.LuxoRadio.utils.AdsManager;
+import lu.voxhost.LuxoRadio.utils.Config;
+import lu.voxhost.LuxoRadio.utils.Methods;
+import lu.voxhost.LuxoRadio.utils.Presenter;
+import lu.voxhost.LuxoRadio.views.ChannelViews;
+import lu.voxhost.LuxoRadio.views.HomeDashViews;
 
 import java.util.List;
 
