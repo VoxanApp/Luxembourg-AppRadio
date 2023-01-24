@@ -1,4 +1,4 @@
-package com.andromob.amradio.fragments;
+package lu.voxhost.LuxoRadio.fragments;
 
 import android.os.Bundle;
 import android.text.Html;
@@ -9,8 +9,8 @@ import android.widget.TextView;
 
 import androidx.fragment.app.Fragment;
 
-import com.andromob.amradio.R;
-import com.andromob.amradio.utils.Methods;
+import lu.voxhost.LuxoRadio.R;
+import lu.voxhost.LuxoRadio.utils.Methods;
 
 import java.io.IOException;
 import java.io.InputStream;

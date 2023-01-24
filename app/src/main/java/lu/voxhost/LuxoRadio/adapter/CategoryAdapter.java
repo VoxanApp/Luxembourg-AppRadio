@@ -1,4 +1,4 @@
-package com.andromob.amradio.adapter;
+package lu.voxhost.LuxoRadio.adapter;
 
 import android.app.Activity;
 import android.content.Context;
@@ -16,11 +16,11 @@ import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.andromob.amradio.R;
-import com.andromob.amradio.fragments.ChannelFragment;
-import com.andromob.amradio.models.Category;
-import com.andromob.amradio.utils.AdsManager;
-import com.andromob.amradio.utils.Methods;
+import lu.voxhost.LuxoRadio.R;
+import lu.voxhost.LuxoRadio.fragments.ChannelFragment;
+import lu.voxhost.LuxoRadio.models.Category;
+import lu.voxhost.LuxoRadio.utils.AdsManager;
+import lu.voxhost.LuxoRadio.utils.Methods;
 
 import java.util.ArrayList;
 import java.util.List;

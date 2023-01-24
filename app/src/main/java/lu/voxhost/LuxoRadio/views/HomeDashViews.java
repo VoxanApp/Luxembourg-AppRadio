@@ -1,7 +1,7 @@
-package com.andromob.amradio.views;
+package lu.voxhost.LuxoRadio.views;
 
-import com.andromob.amradio.models.Category;
-import com.andromob.amradio.models.Channels;
+import lu.voxhost.LuxoRadio.models.Category;
+import lu.voxhost.LuxoRadio.models.Channels;
 
 import java.util.List;
 

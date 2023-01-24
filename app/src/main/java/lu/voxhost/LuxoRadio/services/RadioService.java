@@ -1,6 +1,6 @@
-package com.andromob.amradio.services;
+package lu.voxhost.LuxoRadio.services;
 
-import static com.andromob.amradio.utils.Constant.songName;
+import static lu.voxhost.LuxoRadio.utils.Constant.songName;
 
 import android.app.Service;
 import android.content.BroadcastReceiver;
@@ -23,11 +23,11 @@ import android.text.TextUtils;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.andromob.amradio.BuildConfig;
-import com.andromob.amradio.R;
-import com.andromob.amradio.activity.MainActivity;
-import com.andromob.amradio.utils.HttpsTrustManager;
-import com.andromob.amradio.utils.Tools;
+import lu.voxhost.LuxoRadio.BuildConfig;
+import lu.voxhost.LuxoRadio.R;
+import lu.voxhost.LuxoRadio.activity.MainActivity;
+import lu.voxhost.LuxoRadio.utils.HttpsTrustManager;
+import lu.voxhost.LuxoRadio.utils.Tools;
 import com.google.android.exoplayer2.ExoPlayer;
 import com.google.android.exoplayer2.MediaItem;
 import com.google.android.exoplayer2.PlaybackException;

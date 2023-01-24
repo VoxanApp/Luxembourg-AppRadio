@@ -1,4 +1,4 @@
-package com.andromob.amradio.services;
+package lu.voxhost.LuxoRadio.services;
 
 import android.annotation.SuppressLint;
 import android.app.Notification;
@@ -15,7 +15,7 @@ import android.os.Build;
 import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 
-import com.andromob.amradio.R;
+import lu.voxhost.LuxoRadio.R;
 
 public class MediaNotificationManager {
     public static final int NOTIFICATION_ID = 555;

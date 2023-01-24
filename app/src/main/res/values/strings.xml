@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AM Radio</string>
+    <string name="app_name">LuxRadio</string>
 
     <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
     <string name="applovin_sdk_key">X3NZGJ20xmvvx25u0tQi6qMmTouKMF-xbWHr6LCLVP_3BIFhBvKwqgSZ1vCiWq0WuQIWmLWh9e2ViwlrOWec5r</string>
@@ -11,16 +11,16 @@
     <string name="twitter_username">andromob_in</string>
     <string name="telegram_username">andromob_in</string>
 
-    <string name="about_heading_text">Multi Station Live Radio App</string>
+    <string name="about_heading_text">LuxoRadio</string>
     <string name="about_us_version">Version</string>
     <string name="about_us_email">Email</string>
-    <string name="about_us_email_text">andromobindia@gmail.com</string>
+    <string name="about_us_email_text">admin@voxhost.fr</string>
     <string name="about_us_contact">Contact</string>
     <string name="about_us_contact_text">+91 9725868313</string>
     <string name="about_us_developer">Developer</string>
-    <string name="about_us_developer_name">AndroMOB</string>
+    <string name="about_us_developer_name">VoxHost</string>
     <string name="description">Description</string>
-    <string name="description_texts">AM Radio is an Multi Radio Station Application For Android Platform, Android Mobile Application That Runs Online Streaming Radio, Supports Almost All Formats m3u8,rtmp type link which is play live radio, and many other audio formats, This Application Is Specially Optimized To Be Extremely Easy to Configure And Detailed Documentation is Provided, You Can Easily Create Your Own Multi Station Live Radio App With This Template And Save Your Money And Time.</string>
+    <string name="description_texts">Listen to Luxembourg radio all over the world.</string>
 
     <string name="exit_dialog_text">What you want to do ?</string>
     <string name="minimize">Minimize</string>

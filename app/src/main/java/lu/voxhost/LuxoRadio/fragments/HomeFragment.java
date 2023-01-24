@@ -1,4 +1,4 @@
-package com.andromob.amradio.fragments;
+package lu.voxhost.LuxoRadio.fragments;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
@@ -12,13 +12,13 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
-import com.andromob.amradio.R;
-import com.andromob.amradio.adapter.CategoryAdapter;
-import com.andromob.amradio.adapter.ChannelAdapter;
-import com.andromob.amradio.adapter.SliderAdapter;
-import com.andromob.amradio.databinding.FragmentHomeBinding;
-import com.andromob.amradio.models.Category;
-import com.andromob.amradio.models.Channels;
+import lu.voxhost.LuxoRadio.R;
+import lu.voxhost.LuxoRadio.adapter.CategoryAdapter;
+import lu.voxhost.LuxoRadio.adapter.ChannelAdapter;
+import lu.voxhost.LuxoRadio.adapter.SliderAdapter;
+import lu.voxhost.LuxoRadio.databinding.FragmentHomeBinding;
+import lu.voxhost.LuxoRadio.models.Category;
+import lu.voxhost.LuxoRadio.models.Channels;
 import com.andromob.amradio.utils.AdsManager;
 import com.andromob.amradio.utils.Config;
 import com.andromob.amradio.utils.Methods;

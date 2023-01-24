@@ -1,4 +1,4 @@
-package com.andromob.amradio.models;
+package lu.voxhost.LuxoRadio.models;
 
 public class VP {
     private boolean error;

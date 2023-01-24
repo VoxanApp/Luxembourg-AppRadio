@@ -1,18 +1,18 @@
-package com.andromob.amradio.activity;
+package lu.voxhost.LuxoRadio.activity;
 
-import static com.andromob.amradio.utils.Methods.errorDialog;
-import static com.andromob.amradio.utils.Methods.runApp;
-import static com.andromob.amradio.utils.Methods.startThread;
-import static com.andromob.amradio.utils.Prefs.APP_CHECK;
+import static lu.voxhost.LuxoRadio.utils.Methods.errorDialog;
+import static lu.voxhost.LuxoRadio.utils.Methods.runApp;
+import static lu.voxhost.LuxoRadio.utils.Methods.startThread;
+import static lu.voxhost.LuxoRadio.utils.Prefs.APP_CHECK;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
 
-import com.andromob.amradio.R;
-import com.andromob.amradio.utils.Methods;
-import com.andromob.amradio.utils.Prefs;
+import lu.voxhost.LuxoRadio.R;
+import lu.voxhost.LuxoRadio.utils.Methods;
+import lu.voxhost.LuxoRadio.utils.Prefs;
 
 public class SplashActivity extends AppCompatActivity {
     View mContentView;

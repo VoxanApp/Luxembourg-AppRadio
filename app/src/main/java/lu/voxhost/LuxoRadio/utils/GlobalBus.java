@@ -1,4 +1,4 @@
-package com.andromob.amradio.utils;
+package lu.voxhost.LuxoRadio.utils;
 
 import org.greenrobot.eventbus.EventBus;
 

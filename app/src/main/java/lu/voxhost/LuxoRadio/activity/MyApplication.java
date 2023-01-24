@@ -1,6 +1,6 @@
-package com.andromob.amradio.activity;
+package lu.voxhost.LuxoRadio.activity;
 
-import static com.andromob.amradio.services.MediaNotificationManager.NOTIFICATION_CHANNEL_ID;
+import static lu.voxhost.LuxoRadio.services.MediaNotificationManager.NOTIFICATION_CHANNEL_ID;
 
 import android.app.Application;
 import android.app.NotificationChannel;

@@ -1,4 +1,4 @@
-package com.andromob.amradio.fragments;
+package lu.voxhost.LuxoRadio.fragments;
 
 import android.app.SearchManager;
 import android.content.Context;
@@ -17,13 +17,13 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 
 import java.util.List;
 
-import com.andromob.amradio.R;
-import com.andromob.amradio.adapter.CategoryAdapter;
-import com.andromob.amradio.databinding.FragmentCategoryBinding;
-import com.andromob.amradio.models.Category;
-import com.andromob.amradio.utils.Methods;
-import com.andromob.amradio.utils.Presenter;
-import com.andromob.amradio.views.CategoryViews;
+import lu.voxhost.LuxoRadio.R;
+import lu.voxhost.LuxoRadio.adapter.CategoryAdapter;
+import lu.voxhost.LuxoRadio.databinding.FragmentCategoryBinding;
+import lu.voxhost.LuxoRadio.models.Category;
+import lu.voxhost.LuxoRadio.utils.Methods;
+import lu.voxhost.LuxoRadio.utils.Presenter;
+import lu.voxhost.LuxoRadio.views.CategoryViews;
 
 public class CategoryFragment extends Fragment implements CategoryViews {
     FragmentCategoryBinding binding;

@@ -1,4 +1,4 @@
-package com.andromob.amradio.services.parser;
+package lu.voxhost.LuxoRadio.services.parser;
 
 import java.io.BufferedReader;
 import java.io.IOException;

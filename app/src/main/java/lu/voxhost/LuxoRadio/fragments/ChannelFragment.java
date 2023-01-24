@@ -1,6 +1,6 @@
-package com.andromob.amradio.fragments;
+package lu.voxhost.LuxoRadio.fragments;
 
-import static com.andromob.amradio.utils.Methods.getActionBar;
+import static lu.voxhost.LuxoRadio.utils.Methods.getActionBar;
 
 import android.app.SearchManager;
 import android.content.Context;
@@ -17,14 +17,14 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.GridLayoutManager;
 
-import com.andromob.amradio.R;
-import com.andromob.amradio.adapter.ChannelAdapter;
-import com.andromob.amradio.databinding.FragmentChannelBinding;
-import com.andromob.amradio.models.Channels;
-import com.andromob.amradio.utils.Methods;
-import com.andromob.amradio.utils.Prefs;
-import com.andromob.amradio.utils.Presenter;
-import com.andromob.amradio.views.ChannelViews;
+import lu.voxhost.LuxoRadio.R;
+import lu.voxhost.LuxoRadio.adapter.ChannelAdapter;
+import lu.voxhost.LuxoRadio.databinding.FragmentChannelBinding;
+import lu.voxhost.LuxoRadio.models.Channels;
+import lu.voxhost.LuxoRadio.utils.Methods;
+import lu.voxhost.LuxoRadio.utils.Prefs;
+import lu.voxhost.LuxoRadio.utils.Presenter;
+import lu.voxhost.LuxoRadio.views.ChannelViews;
 
 import java.util.List;
 

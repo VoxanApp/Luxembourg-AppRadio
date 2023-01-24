@@ -1,4 +1,4 @@
-package com.andromob.amradio.models;
+package lu.voxhost.LuxoRadio.models;
 
 public class Category {
     private int cat_id;

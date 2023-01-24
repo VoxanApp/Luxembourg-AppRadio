@@ -1,4 +1,4 @@
-package com.andromob.amradio.adapter;
+package lu.voxhost.LuxoRadio.adapter;
 
 import android.app.Activity;
 import android.graphics.drawable.Drawable;
@@ -15,10 +15,10 @@ import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager2.widget.ViewPager2;
 
-import com.andromob.amradio.R;
-import com.andromob.amradio.models.Channels;
-import com.andromob.amradio.utils.AdsManager;
-import com.andromob.amradio.utils.Methods;
+import lu.voxhost.LuxoRadio.R;
+import lu.voxhost.LuxoRadio.models.Channels;
+import lu.voxhost.LuxoRadio.utils.AdsManager;
+import lu.voxhost.LuxoRadio.utils.Methods;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.DataSource;
 import com.bumptech.glide.load.engine.GlideException;

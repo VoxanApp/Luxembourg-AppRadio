@@ -1,4 +1,4 @@
-package com.andromob.amradio.utils;
+package lu.voxhost.LuxoRadio.utils;
 
 import static com.andromob.amradio.utils.Methods.postTokenToServer;
 import static com.andromob.amradio.utils.Prefs.getUserToken;
@@ -21,8 +21,8 @@ import android.util.Log;
 import androidx.annotation.NonNull;
 import androidx.core.app.NotificationCompat;
 
-import com.andromob.amradio.R;
-import com.andromob.amradio.activity.SplashActivity;
+import lu.voxhost.LuxoRadio.R;
+import lu.voxhost.LuxoRadio.activity.SplashActivity;
 import com.google.firebase.messaging.FirebaseMessaging;
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;

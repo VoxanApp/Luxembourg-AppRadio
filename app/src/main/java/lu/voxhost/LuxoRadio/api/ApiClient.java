@@ -1,6 +1,6 @@
-package com.andromob.amradio.api;
+package lu.voxhost.LuxoRadio.api;
 
-import com.andromob.amradio.BuildConfig;
+import lu.voxhost.LuxoRadio.BuildConfig;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 

@@ -1,13 +1,13 @@
-package com.andromob.amradio.api;
+package lu.voxhost.LuxoRadio.api;
 
 import java.util.List;
 
-import com.andromob.amradio.models.Category;
-import com.andromob.amradio.models.Channels;
-import com.andromob.amradio.models.Report;
-import com.andromob.amradio.models.Settings;
-import com.andromob.amradio.models.UserToken;
-import com.andromob.amradio.models.VP;
+import lu.voxhost.LuxoRadio.models.Category;
+import lu.voxhost.LuxoRadio.models.Channels;
+import lu.voxhost.LuxoRadio.models.Report;
+import lu.voxhost.LuxoRadio.models.Settings;
+import lu.voxhost.LuxoRadio.models.UserToken;
+import lu.voxhost.LuxoRadio.models.VP;
 import retrofit2.Call;
 import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;

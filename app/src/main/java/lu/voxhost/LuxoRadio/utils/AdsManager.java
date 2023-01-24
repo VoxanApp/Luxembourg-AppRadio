@@ -1,4 +1,4 @@
-package com.andromob.amradio.utils;
+package lu.voxhost.LuxoRadio.utils;
 
 import static android.view.View.GONE;
 
@@ -14,7 +14,7 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
-import com.andromob.amradio.R;
+import lu.voxhost.LuxoRadio.R;
 import com.applovin.mediation.MaxAd;
 import com.applovin.mediation.MaxAdFormat;
 import com.applovin.mediation.MaxAdListener;

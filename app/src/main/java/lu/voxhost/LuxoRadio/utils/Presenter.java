@@ -1,19 +1,19 @@
-package com.andromob.amradio.utils;
+package lu.voxhost.LuxoRadio.utils;
 
-import static com.andromob.amradio.utils.Config.LATEST_CHANNEL_LIMIT;
-import static com.andromob.amradio.utils.Config.MOST_VIEWED_CHANNEL_LIMIT;
-import static com.andromob.amradio.utils.Config.SLIDER_LIMIT;
+import static lu.voxhost.LuxoRadio.utils.Config.LATEST_CHANNEL_LIMIT;
+import static lu.voxhost.LuxoRadio.utils.Config.MOST_VIEWED_CHANNEL_LIMIT;
+import static lu.voxhost.LuxoRadio.utils.Config.SLIDER_LIMIT;
 
 import android.view.View;
 
 import androidx.annotation.NonNull;
 
-import com.andromob.amradio.BuildConfig;
-import com.andromob.amradio.models.Category;
-import com.andromob.amradio.models.Channels;
-import com.andromob.amradio.views.CategoryViews;
-import com.andromob.amradio.views.ChannelViews;
-import com.andromob.amradio.views.HomeDashViews;
+import lu.voxhost.LuxoRadio.BuildConfig;
+import lu.voxhost.LuxoRadio.models.Category;
+import lu.voxhost.LuxoRadio.models.Channels;
+import lu.voxhost.LuxoRadio.views.CategoryViews;
+import lu.voxhost.LuxoRadio.views.ChannelViews;
+import lu.voxhost.LuxoRadio.views.HomeDashViews;
 
 import java.util.List;
 

@@ -1,8 +1,8 @@
-package com.andromob.amradio.utils;
+package lu.voxhost.LuxoRadio.utils;
 
-import static com.andromob.amradio.activity.MainActivity.fragmentManager;
-import static com.andromob.amradio.utils.Prefs.APP_CHECK;
-import static com.andromob.amradio.utils.Prefs.getPreference;
+import static lu.voxhost.LuxoRadio.activity.MainActivity.fragmentManager;
+import static lu.voxhost.LuxoRadio.utils.Prefs.APP_CHECK;
+import static lu.voxhost.LuxoRadio.utils.Prefs.getPreference;
 
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
@@ -35,17 +35,17 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager2.widget.CompositePageTransformer;
 import androidx.viewpager2.widget.ViewPager2;
 
-import com.andromob.amradio.BuildConfig;
-import com.andromob.amradio.R;
-import com.andromob.amradio.activity.MainActivity;
-import com.andromob.amradio.api.Api;
-import com.andromob.amradio.api.ApiClient;
-import com.andromob.amradio.models.Channels;
-import com.andromob.amradio.models.Report;
-import com.andromob.amradio.models.Settings;
-import com.andromob.amradio.models.UserToken;
-import com.andromob.amradio.models.VP;
-import com.andromob.amradio.services.RadioService;
+import lu.voxhost.LuxoRadio.BuildConfig;
+import lu.voxhost.LuxoRadio.R;
+import lu.voxhost.LuxoRadio.activity.MainActivity;
+import lu.voxhost.LuxoRadio.api.Api;
+import lu.voxhost.LuxoRadio.api.ApiClient;
+import lu.voxhost.LuxoRadio.models.Channels;
+import lu.voxhost.LuxoRadio.models.Report;
+import lu.voxhost.LuxoRadio.models.Settings;
+import lu.voxhost.LuxoRadio.models.UserToken;
+import lu.voxhost.LuxoRadio.models.VP;
+import lu.voxhost.LuxoRadio.services.RadioService;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.target.CustomTarget;
 import com.bumptech.glide.request.transition.Transition;

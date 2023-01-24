@@ -1,4 +1,4 @@
-package com.andromob.amradio.services;
+package lu.voxhost.LuxoRadio.services;
 
 public class PlaybackStatus {
     public static final String IDLE = "PlaybackStatus_IDLE";

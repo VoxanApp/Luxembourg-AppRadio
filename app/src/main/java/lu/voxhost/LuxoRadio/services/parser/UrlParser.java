@@ -1,8 +1,8 @@
-package com.andromob.amradio.services.parser;
+package lu.voxhost.LuxoRadio.services.parser;
 
 import android.annotation.SuppressLint;
 
-import com.andromob.amradio.utils.Log;
+import lu.voxhost.LuxoRadio.utils.Log;
 
 import java.io.IOException;
 import java.net.MalformedURLException;

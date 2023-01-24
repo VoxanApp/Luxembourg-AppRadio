@@ -1,4 +1,4 @@
-package com.andromob.amradio.services;
+package lu.voxhost.LuxoRadio.services;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -6,8 +6,8 @@ import android.content.Intent;
 import android.content.ServiceConnection;
 import android.os.IBinder;
 
-import com.andromob.amradio.utils.Log;
-import com.andromob.amradio.utils.Tools;
+import lu.voxhost.LuxoRadio.utils.Log;
+import lu.voxhost.LuxoRadio.utils.Tools;
 
 public class RadioManager {
     private static RadioManager instance = null;
