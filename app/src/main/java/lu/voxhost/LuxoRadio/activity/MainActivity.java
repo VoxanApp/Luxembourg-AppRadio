@@ -7,7 +7,6 @@ import static lu.voxhost.LuxoRadio.utils.Constant.RADIO_ID;
 import static lu.voxhost.LuxoRadio.utils.Constant.RADIO_NAME;
 import static lu.voxhost.LuxoRadio.utils.Constant.RADIO_STREAM_URL;
 import static lu.voxhost.LuxoRadio.utils.Constant.songName;
-import static lu.voxhost.LuxoRadio.utils.Methods.chk;
 import static lu.voxhost.LuxoRadio.utils.Methods.doReport;
 import static lu.voxhost.LuxoRadio.utils.Methods.setMargins;
 import static lu.voxhost.LuxoRadio.utils.Methods.showBottomSheetDialog;
@@ -533,7 +532,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     @Override
     protected void onStart() {
         super.onStart();
-        chk(this);
         Tools.registerAsListener(this);
     }
 

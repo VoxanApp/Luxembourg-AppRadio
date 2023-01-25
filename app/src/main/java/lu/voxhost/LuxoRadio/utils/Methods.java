@@ -197,14 +197,6 @@ public class Methods {
         alertDialog.show();
     }
 
-    public static void chk(Activity activity) {
-        if (activity != null) {
-            if (getPreference(activity, Prefs.SET_PREFERENCES, APP_CHECK, "").isEmpty()) {
-                errorDialog(activity, "Purchase Verification Failed", "Please Contact The Owner");
-            }
-        }
-    }
-
     public static void runApp(Activity activity) {
         getAdSettings(activity);
     }
