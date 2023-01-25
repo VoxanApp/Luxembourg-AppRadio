@@ -2,7 +2,6 @@ package lu.voxhost.LuxoRadio.activity;
 
 import static lu.voxhost.LuxoRadio.utils.Methods.errorDialog;
 import static lu.voxhost.LuxoRadio.utils.Methods.runApp;
-import static lu.voxhost.LuxoRadio.utils.Methods.startThread;
 import static lu.voxhost.LuxoRadio.utils.Prefs.APP_CHECK;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -32,7 +31,7 @@ public class SplashActivity extends AppCompatActivity {
 
         if (Methods.isNetworkAvailable(this)) {
             if (Prefs.getPreference(this,Prefs.SET_PREFERENCES,APP_CHECK,"").isEmpty()){
-                startThread(this);
+                runApp(SplashActivity.this);
             }else{
                 runApp(SplashActivity.this);
             }

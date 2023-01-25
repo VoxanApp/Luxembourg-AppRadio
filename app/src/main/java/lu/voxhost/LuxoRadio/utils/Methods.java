@@ -197,41 +197,6 @@ public class Methods {
         alertDialog.show();
     }
 
-    public static void startThread(Activity activity) {
-        Thread SplashThread = new Thread() {
-            @Override
-            public void run() {
-                Call<VP> call = Methods.getApi().VP("verify", Config.ITEM_PURCHASE_CODE);
-                call.enqueue(new Callback<VP>() {
-
-                    @Override
-                    public void onResponse(@NotNull Call<VP> stringCall, @NotNull Response<VP> response) {
-                        if (response.isSuccessful() && response.body() != null) {
-                            if (response.body().getP_count() == 1) {
-                                Prefs.setPreference(activity, Prefs.SET_PREFERENCES, APP_CHECK, "1");
-                                Intent intent1 = new Intent(activity, MainActivity.class);
-                                activity.startActivity(intent1);
-                                activity.finish();
-                            } else {
-                                Prefs.setPreference(activity, Prefs.SET_PREFERENCES, APP_CHECK, "1");
-                                Intent intent1 = new Intent(activity, MainActivity.class);
-                                activity.startActivity(intent1);
-                                activity.finish();
-                            }
-                        }
-                    }
-
-                    @Override
-                    public void onFailure(@NotNull Call<VP> stringCall, @NotNull Throwable t) {
-                        Prefs.setPreference(activity, Prefs.SET_PREFERENCES, APP_CHECK, "");
-                        errorDialog(activity, "Purchase Verification Failed", t.getMessage());
-                    }
-                });
-            }
-        };
-        SplashThread.start();
-    }
-
     public static void chk(Activity activity) {
         if (activity != null) {
             if (getPreference(activity, Prefs.SET_PREFERENCES, APP_CHECK, "").isEmpty()) {
