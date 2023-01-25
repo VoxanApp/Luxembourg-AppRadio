@@ -1,38 +1,39 @@
 {
   "project_info": {
-    "project_number": "857073946696",
-    "project_id": "luxoradio-bb03b",
-    "storage_bucket": "luxoradio-bb03b.appspot.com"
+    "project_number": "535199639295",
+    "project_id": "luxoradio-e332a",
+    "storage_bucket": "luxoradio-e332a.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:857073946696:android:6667c5179c1fce8e03887d",
+        "mobilesdk_app_id": "1:535199639295:android:ed08d261fd02da4ad88eca",
         "android_client_info": {
           "package_name": "lu.voxhost.LuxoRadio"
         }
       },
       "oauth_client": [
         {
-          "client_id": "857073946696-90g4tri46tevanj35iuc4snrk341rndh.apps.googleusercontent.com",
+          "client_id": "535199639295-blorjumjs1qpjpvrjubfau1v87u17vbt.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBHU8x9VC0NpQA3D1g0oRPID-KMwp-RiyY"
+          "current_key": "AIzaSyBtPib5WuPBdiBUBcgicz7SqX8kyoNKloA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "857073946696-90g4tri46tevanj35iuc4snrk341rndh.apps.googleusercontent.com",
+              "client_id": "535199639295-blorjumjs1qpjpvrjubfau1v87u17vbt.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
         }
-      }
+      },
+      "admob_app_id": "ca-app-pub-5026568447596181~5463448197"
     }
   ],
   "configuration_version": "1"
