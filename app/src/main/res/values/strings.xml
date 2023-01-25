@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">LuxoRadio</string>
 
-    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
-    <string name="applovin_sdk_key">X3NZGJ20xmvvx25u0tQi6qMmTouKMF-xbWHr6LCLVP_3BIFhBvKwqgSZ1vCiWq0WuQIWmLWh9e2ViwlrOWec5r</string>
+    <string name="admob_app_id">ca-app-pub-5026568447596181~5463448197</string>
+    <string name="applovin_sdk_key">x</string>
 
     <string name="follow_us">Follow Us</string>
     <string name="facebook_username">andromob.in</string>
