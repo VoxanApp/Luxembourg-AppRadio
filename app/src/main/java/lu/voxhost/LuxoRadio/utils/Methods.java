@@ -215,10 +215,6 @@ public class Methods {
                     Constant.ADMOB_BIG_BANNER_AD_ID = response.body().get(0).getAdmob_medium_banner();
                     Constant.ADMOB_INTER_AD_ID = response.body().get(0).getAdmob_inter();
                     Constant.ADMOB_NATIVE_AD_ID = response.body().get(0).getAdmob_native();
-                    Constant.APPLOVIN_SMALL_BANNER_AD_ID = response.body().get(0).getAdmob_small_banner();
-                    Constant.APPLOVIN_BIG_BANNER_AD_ID = response.body().get(0).getApplovin_medium_banner();
-                    Constant.APPLOVIN_INTER_AD_ID = response.body().get(0).getApplovin_inter();
-                    Constant.APPLOVIN_NATIVE_AD_ID = response.body().get(0).getApplovin_native();
                     Thread SplashThread = new Thread() {
                         @Override
                         public void run() {
